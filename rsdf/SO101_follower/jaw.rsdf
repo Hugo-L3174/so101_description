@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<robot name="SO101_follower">
+
+  <planar_surface name="gripper_up" link="jaw">
+    <origin rpy="0.0 0.0 0.0" xyz="0.035 0.0 -0.03" />
+    <points>
+        <point xy="-0.085 -0.0275" />
+        <point xy="0.085 -0.0275" />
+        <point xy="0.085 0.0275" />
+        <point xy="-0.085 0.0275" />
+    </points>
+    <material name="plastic" />
+  </planar_surface>
+
+</robot>
