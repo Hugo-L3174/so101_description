@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <robot name="SO101_follower">
   
-  <planar_surface name="gripper_low" link="gripper">
-    <origin rpy="0 0 0" xyz="0.035 0 -0.03" />
+  <planar_surface name="gripper_low" link="gripper_link">
+    <origin rpy="0 1.57 0" xyz="-0.008 0 -0.099" />
     <points>
-      <point xy="-0.085 -0.030" />
-      <point xy="0.085 -0.030" />
-      <point xy="0.085 0.030" />
-      <point xy="-0.085 0.030" />
+      <point xy="-0.005 -0.005" />
+      <point xy="0.005 -0.005" />
+      <point xy="0.005 0.005" />
+      <point xy="-0.005 0.005" />
     </points>
     <material name="plastic" />
   </planar_surface>
